@@ -1,0 +1,18 @@
+{
+  "name": "aclabs-resource-backend",
+  "version": "1.0.0",
+  "description": "Simulates a Backend/microservice that AC Labs API 01 relies on",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "express-jwt": "^8.4.1",
+    "jwks-rsa": "^3.1.0",
+    "serverless-http": "^3.2.0"
+  }
+}
